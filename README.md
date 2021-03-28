@@ -1,5 +1,5 @@
 # Slothful-newsletter
-A page with news and information from different sources, developed using the puppeteer library to scrape data.
+A page with news and information from different sources.
 
 ## Libraries:
 - Typescript
