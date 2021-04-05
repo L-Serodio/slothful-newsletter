@@ -1,9 +1,9 @@
-import { Connection, createConnection, getConnectionOptions } from 'typeorm';
+import { Connection, createConnection } from 'typeorm';
 
 export default async (): Promise<Connection> => {
-    if(process.env.NODE_ENV === 'test') {
-        return createConnection("test");
+    if (process.env.NODE_ENV === "test") {
+        return await createConnection("test");
     } else {
-        return createConnection("default");
-    }  
-};
+        return await createConnection("default");
+    }
+}
