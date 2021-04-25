@@ -1,7 +1,7 @@
 import IRepository from "./IRepository";
 
 export default abstract class BaseRepository<T> implements IRepository<T> {
-    
+
     insert(entity: T): Promise<void> {
         throw new Error("Method not implemented.");
     }
@@ -17,5 +17,5 @@ export default abstract class BaseRepository<T> implements IRepository<T> {
     find(id: string): Promise<T> {
         throw new Error("Method not implemented.");
     }
-    
+
 };
