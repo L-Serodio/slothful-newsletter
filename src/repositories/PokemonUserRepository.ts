@@ -1,0 +1,7 @@
+
+
+class PokemonUserRepository {
+
+}
+
+export { PokemonUserRepository };

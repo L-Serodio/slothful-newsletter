@@ -17,6 +17,10 @@ export class CreatePokemons1619310519748 implements MigrationInterface {
                         type: 'varchar'
                     },
                     {
+                        name: 'image',
+                        type: 'varchar'
+                    },
+                    {
                         name: 'type',
                         type: 'varchar'
                     },

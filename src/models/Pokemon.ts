@@ -10,6 +10,9 @@ class Pokemon {
     name: string;
 
     @Column()
+    image: string;
+
+    @Column()
     type: string;
 
     @CreateDateColumn()
